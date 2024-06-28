@@ -1,0 +1,7 @@
+<div class="grid grid-cols-3 gap-8 mt-5">
+    @for (models of models(); track $index) {
+        <app-marcas 
+            [Modelos]="models" 
+        />
+    }
+</div>
